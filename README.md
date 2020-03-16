@@ -10,6 +10,6 @@ k2 sub domain finder is a multi-level sub domain extractor, It uses bruteforce t
 * ```python3 k2_sub_finder.py targetdomain.com```
 
 ## Working
-If finds the sub domains by checking the port 80/443. It has builtin wordlist of 110000 words.
+It finds the sub domains by checking the port 80/443. It has builtin wordlist of 110000 words.
 
 ### Ping me at: farhankhursheed2018@gmail.com
