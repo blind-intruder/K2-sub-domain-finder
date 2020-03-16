@@ -1,4 +1,6 @@
 # K2 sub domain finder
+![k2 sub domain finder](https://raw.githubusercontent.com/blind-intruder/K2-sub-domain-finder/master/k2-sub-finder/sub.png)
+
 k2 sub domain finder is a multi-level sub domain extractor, It uses bruteforce techniques to discover sub domains.
 
 ## Usage
