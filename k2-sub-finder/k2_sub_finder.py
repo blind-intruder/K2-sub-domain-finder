@@ -50,8 +50,10 @@ def secondlevel():
 			pass
 		else:
 			thirdlevelsubs.append(subdo)
-			print('\033[32m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
-			getcname(subdo)
+			if(code=="404"):
+				print('\033[31m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
+			else:
+				print('\033[32m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
 	thirdlevel()
 
 def thirdlevel():
@@ -69,8 +71,9 @@ def thirdlevel():
 			except:
 				pass
 			else:
-				print('\033[32m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
+				if(code=="404"):
+					print('\033[31m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
+				else:
+					print('\033[32m' +"--> Sub domain found:  "+subd+" -->"+code+ '\033[0m')
 
-def getcname(sdomain):
-	os.system("host "+sdomain)
 checkhost()
